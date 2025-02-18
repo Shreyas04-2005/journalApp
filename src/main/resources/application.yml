@@ -60,3 +60,5 @@ spring:
       session:
         timeout:
           ms: 45000
+
+
