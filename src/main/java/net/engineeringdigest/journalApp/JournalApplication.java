@@ -26,7 +26,7 @@ public class JournalApplication {
     public static void main(String[] args) {
         SpringApplication.run(JournalApplication.class, args);
     }
-
+ 
     @Bean
     public PlatformTransactionManager falana(MongoDatabaseFactory dbFactory){
         return new MongoTransactionManager(dbFactory);
@@ -34,7 +34,7 @@ public class JournalApplication {
     @Bean
     public RestTemplate restTemplate() {
         return new RestTemplate();
-        
+
         
     }
 
